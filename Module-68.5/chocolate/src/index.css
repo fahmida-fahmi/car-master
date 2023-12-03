@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #685d5d;
+}
+p{
+  margin-bottom: 0 !important;
+}
+.title{
+  background: var(--radial, radial-gradient(133.09% 126.75% at 50.00% 49.99%, #DC8D48 0%, #D38745 4.19%, #91572B 36.95%, #5E3116 66.01%, #3F1A0A 87.87%, #331105 100%));
+  ;
+}
+
+.family{
+  font-family: 'Poppins', sans-serif;
+}
+.table-th{
+  border-radius: 8px;
+background: radial-gradient(182.10% 173.43% at 50.00% 49.99%, rgba(220, 141, 72, 0.30) 0%, rgba(211, 135, 69, 0.30) 4.19%, rgba(145, 87, 43, 0.30) 36.95%, rgba(94, 49, 22, 0.30) 66.01%, rgba(63, 26, 10, 0.30) 87.87%, rgba(51, 17, 5, 0.30) 100%);
+}
