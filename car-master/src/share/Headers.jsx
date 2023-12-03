@@ -21,9 +21,9 @@ const Headers = () => {
     const navItems = <>
         <li><Link className='no-underline text-black font-semibold text-xl' to='/'>Home</Link></li>
         <li><Link className='no-underline text-black font-semibold text-xl' to='/about'>About</Link></li>
-        <li><Link className='no-underline text-black font-semibold text-xl' to='/about'>Service</Link></li>
-        <li><Link className='no-underline text-black font-semibold text-xl' to='/about'>Blog</Link></li>
-        <li><Link className='no-underline text-black font-semibold text-xl' to='/about'>Contact</Link></li>
+        <li><Link className='no-underline text-black font-semibold text-xl' to='/service'>Service</Link></li>
+        <li><Link className='no-underline text-black font-semibold text-xl' to='/blog'>Blog</Link></li>
+        <li><Link className='no-underline text-black font-semibold text-xl' to='/contact'>Contact</Link></li>
 
     </>
     return (
